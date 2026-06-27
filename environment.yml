@@ -8,9 +8,15 @@ dependencies:
   - numpy
   - pandas
   - matplotlib
+  - scipy
   - scikit-learn
   - cartopy
+  - geopandas
+  - gdal
+  - rasterio
+  - seaborn
   - shap
+  - statsmodels
   - openpyxl
   - pip
   - pip:

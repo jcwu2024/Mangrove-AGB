@@ -9,8 +9,11 @@ The global mangrove aboveground biomass product and compiled field-observation d
 
 ```text
 code/figures_ms/          Main-text figure notebooks
+code/figures_si/          Supplementary figure notebooks
 data/main_figures/        Processed data used by the main-text figure notebooks
+data/supplementary_figures/ Processed data used by the supplementary figure notebooks
 figures/main_text/        Rendered main-text figure images
+figures/supplementary/    Rendered supplementary figure images
 ```
 
 ## Main Figures
@@ -30,6 +33,10 @@ To open the notebooks:
 cd code/figures_ms
 jupyter notebook
 ```
+
+## Supplementary Figures
+
+Supplementary figure notebooks are in `code/figures_si/`, with processed inputs in `data/supplementary_figures/`. Rendered images are in `figures/supplementary/` and are named in manuscript order.
 
 ## Citation
 
