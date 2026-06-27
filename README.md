@@ -1,6 +1,6 @@
 # Code and data associated with the manuscript: **Sea-level rise constrains the carbon permanence of global mangrove restoration**
 
-The global mangrove aboveground biomass product and metadata are available on Zenodo:
+The global mangrove aboveground biomass product and compiled field-observation dataset are available on Zenodo:
 
 - `global_mangrove_agb.tif`: https://zenodo.org/records/15382912
 - `Mangrove_AGB_MetaData.xlsx`: https://zenodo.org/records/15382912/files/Mangrove_AGB_MetaData.xlsx?download=1
