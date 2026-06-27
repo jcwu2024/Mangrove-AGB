@@ -1,2 +1,36 @@
-# Data and code for paper: "Slowing future sea-level rise is more effective than restoration on maintaining global mangrove biomass"
-Data product is avaliable at https://zenodo.org/records/15382912.
+# Code and data associated with the manuscript: **Sea-level rise constrains the carbon permanence of global mangrove restoration**
+
+The global mangrove aboveground biomass product and metadata are available on Zenodo:
+
+- `global_mangrove_agb.tif`: https://zenodo.org/records/15382912
+- `Mangrove_AGB_MetaData.xlsx`: https://zenodo.org/records/15382912/files/Mangrove_AGB_MetaData.xlsx?download=1
+
+## Layout
+
+```text
+code/figures_ms/          Main-text figure notebooks
+data/main_figures/        Processed data used by the main-text figure notebooks
+figures/main_text/        Rendered main-text figure images
+```
+
+## Main Figures
+
+The notebooks in `code/figures_ms/` use relative paths to the processed files in `data/main_figures/`.
+
+| Figure | Notebook | Rendered figure |
+| --- | --- | --- |
+| Fig. 1 | `code/figures_ms/fig01_machine_learning_agb.ipynb` | `figures/main_text/fig01_machine_learning_agb.png` |
+| Fig. 2 | `code/figures_ms/fig02_future_change.ipynb` | `figures/main_text/fig02_future_change.png` |
+| Fig. 3 | `code/figures_ms/fig03_change_distribution.ipynb` | `figures/main_text/fig03_change_distribution.png` |
+| Fig. 4 | `code/figures_ms/fig04_country_change.ipynb` | `figures/main_text/fig04_country_change.png` |
+
+To open the notebooks:
+
+```bash
+cd code/figures_ms
+jupyter notebook
+```
+
+## Citation
+
+Please cite the paper and the Zenodo record when using the data product or code.

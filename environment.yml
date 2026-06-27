@@ -1,0 +1,18 @@
+name: mangrove-agb
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - jupyter
+  - ipykernel
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - cartopy
+  - shap
+  - openpyxl
+  - pip
+  - pip:
+      - adjustText
+      - brokenaxes
